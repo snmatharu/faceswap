@@ -38,7 +38,7 @@ def rectContains(rect, point) :
 
 
 def calculateDelaunayTriangles(rect, points):
-    #create subdiv
+   
     subdiv = cv2.Subdiv2D(rect);
     
   
