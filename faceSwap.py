@@ -13,7 +13,7 @@ def readPoints(path) :
             x, y = line.split()
             points.append((int(x), int(y)))
     
-
+    print(points) 
     return points
 
 def applyAffineTransform(src, srcTri, dstTri, size) :
